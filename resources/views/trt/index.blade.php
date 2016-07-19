@@ -7,6 +7,7 @@
 @section('header')
 <section class="node row header">
 	<div class="col-lg-12">
+		@include('trt/welcome')
 	</div>
 </section>
 @endsection
@@ -14,7 +15,6 @@
 
 @section('main_content')
 <section class="row content">
-	@include('trt/welcome')
 	@include('trt/about')
 </section>
 @endsection
