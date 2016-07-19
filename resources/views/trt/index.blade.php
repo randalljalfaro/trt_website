@@ -1,21 +1,24 @@
-@extends('trt/layout')
+@extends('layouts/layout')
 
-@include('trt/welcome')
-@include('trt/about')
+@section('css')
+@yield('css')
+@endsection
 
 @section('header')
 <section class="node row header">
-<div class="col-lg-12">
+	<div class="col-lg-12">
 	</div>
 </section>
 @endsection
 
-@section('content')
-<section class="content">
-	@yield('welcome')
-	@yield('about')
+
+@section('main_content')
+<section class="row content">
+	@include('trt/welcome')
+	@include('trt/about')
 </section>
 @endsection
+
 
 @section('footer')
 <section class="node row footer">

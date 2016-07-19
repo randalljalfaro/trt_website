@@ -1,6 +1,20 @@
- @section('welcome')
- <section class="node row welcome col-lg-12">
- 	<image src="../assets/images/logo-trt.png"/>
- 	<h1>SOMOS ECOMMERCE</h1>
- </section>
+ @extends('layouts/regularSection', 
+ [
+ 'regular_section_css' => 'node row welcome',
+ 'header' => 'welcome_header',
+ 'content' => '',
+ 'footer' => 'welcome_footer'
+ ])
+
+ @section("css")
  @endsection
+
+ @section('welcome_header')
+ <image src="../assets/images/logo-trt.png"/>
+ @endsection
+
+ @section('welcome_footer')
+ <h1>SOMOS ECOMMERCE</h1>
+ @endsection
+
+
