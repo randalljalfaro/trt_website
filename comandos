@@ -1,0 +1,11 @@
+composer global require "laravel/installer"
+laravel new PaymentModule
+php artisan serve
+artisan make:test NotesTest
+vendor/bin/phpunit
+php artisan make:model Note
+php artisan make:mig create_notes_table --create=notes
+php artisan migrate
+php artisan migrate:rollback
+php artisan tinker // consola interactiva
+	\App\Note::truncate() //Limpia la tabla

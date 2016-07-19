@@ -1,0 +1,47 @@
+ html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: table;
+	font-weight: 100;
+	font-family: 'Lato';
+}
+
+.container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	background-size:100%;
+}
+
+
+.title {
+	font-size: 96px;
+}
+
+section{
+	min-height: 300px;
+}
+header{
+	background-color: blue;
+}
+footer{
+	background-color: yellow;
+}
+
+.content {
+	text-align: center;
+	display: inline-block;
+	background-color: orange;
+}
+.welcome{
+	background: url("../images/chepe1.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.about{
+	background-color: orange;
+}
