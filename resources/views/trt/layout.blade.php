@@ -9,18 +9,18 @@
   <link href="../assets/css/main.css" rel="stylesheet">
   <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 </head>
-<header>
+<header class="container-fluid">
   @yield('header')
 </header>
 <body>
-  <div>
+  <div class="container-fluid">
     @yield('content')
     <!--@yield('sidebar')-->
   </div>
   <script src="../assets/js/jquery/jquery.js"></script>
   <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
 </body>
-<footer>
+<footer  class="container-fluid">
   @yield('footer')
 </footer>
 </html>

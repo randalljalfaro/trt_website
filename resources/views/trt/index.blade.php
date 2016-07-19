@@ -4,7 +4,9 @@
 @include('trt/about')
 
 @section('header')
-<section class="header">
+<section class="node row header">
+<div class="col-lg-12">
+	</div>
 </section>
 @endsection
 
@@ -16,6 +18,8 @@
 @endsection
 
 @section('footer')
-<section class="footer">
+<section class="node row footer">
+	<div class="col-lg-12">
+	</div>
 </section>
 @endsection

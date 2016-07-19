@@ -1,47 +1,80 @@
  html, body {
-	height: 100%;
-}
+ 	height: 100%;
+ }
 
-body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	display: table;
-	font-weight: 100;
-	font-family: 'Lato';
-}
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 100%;
+ 	display: table;
+ 	font-weight: 100;
+ 	font-family: 'Lato';
+ }
 
-.container {
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-	background-size:100%;
-}
+ .node{
+ 	text-align: center;
+ 	display: block;
+ }
 
+ .title {
+ 	font-size: 96px;
+ }
 
-.title {
-	font-size: 96px;
-}
+ .header{
+ 	background-color: blue;
+ }
 
-section{
-	min-height: 300px;
-}
-header{
-	background-color: blue;
-}
-footer{
-	background-color: yellow;
-}
+ .footer{
+ 	background-color: yellow;
+ }
 
-.content {
-	text-align: center;
-	display: inline-block;
-	background-color: orange;
-}
-.welcome{
-	background: url("../images/chepe1.png") no-repeat 0 0;
-	background-size: 100% 100%;
-}
-.about{
-	background-color: orange;
-}
+ .content {
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	background-size:100%;
+ 	background-color: orange;
+ }
+
+ .welcome{
+ 	background: url("../images/chepe1.png") no-repeat 0 0;
+ 	background-size: 100% 100%;
+ }
+
+ .about{
+ 	background-color: orange;
+ }
+
+ /* Custom, iPhone Retina */ 
+ @media only screen and (min-width : 320px) {
+ 	.node{
+ 		height: 480px;
+ 	}
+ }
+
+ /* Extra Small Devices, Phones */ 
+ @media only screen and (min-width : 480px) {
+ 	.node{
+ 		height: 854px;
+ 	}
+ }
+
+ /* Small Devices, Tablets */
+ @media only screen and (min-width : 768px) {
+ 	.node{
+ 		height: 1024px;
+ 	}
+ }
+
+ /* Medium Devices, Desktops */
+ @media only screen and (min-width : 992px) {
+ 	.node{
+ 		height: 1800px;
+ 	}
+ }
+
+ /* Large Devices, Wide Screens */
+ @media only screen and (min-width : 1200px) {
+ 	.node{
+ 		height: 1920px;
+ 	}
+ }
