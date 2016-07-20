@@ -2,6 +2,7 @@
  [
  'css' => 'node row about',
  'header' => 'about_header',
+ 'ref' => '',
  'content' => '',
  'footer' => 'about_footer'
  ])
