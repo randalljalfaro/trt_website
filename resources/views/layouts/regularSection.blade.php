@@ -2,7 +2,7 @@
 @yield('css')
 @endsection
 
-<section class="{{$regular_section_css}}">
+<section class="{{$css}}" href="{{$ref}}">
 	<header class="row">
 		@yield($header)
 	</header>

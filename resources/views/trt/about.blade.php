@@ -1,10 +1,11 @@
  @extends('layouts/regularSection', 
  [
- 'regular_section_css' => 'node row about',
+ 'css' => 'node row about',
  'header' => 'about_header',
  'content' => '',
  'footer' => 'about_footer'
  ])
+ 
  @section("css")
  @endsection
 

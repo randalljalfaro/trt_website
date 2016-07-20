@@ -8,13 +8,14 @@
 
   <link href="../assets/css/main.css" rel="stylesheet">
   <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  @yield('css')
 </head>
 <header class="container-fluid">
   @yield('header')
 </header>
 <body>
   <div class="container-fluid">
-  @yield('main_content')
+    @yield('main_content')
     <!--@yield('sidebar')-->
   </div>
 </body>
@@ -22,5 +23,6 @@
   @yield('footer')
   <script src="../assets/js/jquery/jquery.js"></script>
   <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+  @yield('scripts')
 </footer>
 </html>

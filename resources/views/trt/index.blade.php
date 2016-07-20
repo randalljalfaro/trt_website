@@ -4,11 +4,13 @@
 @yield('css')
 @endsection
 
+@section('scripts')
+<script type="text/javascript" src="../assets/js/main.js"></script>
+@endsection
+
 @section('header')
 <section class="node row header">
-	<div class="col-lg-12">
-		@include('trt/welcome')
-	</div>
+	@include('trt/welcome')
 </section>
 @endsection
 
@@ -22,7 +24,5 @@
 
 @section('footer')
 <section class="node row footer">
-	<div class="col-lg-12">
-	</div>
 </section>
 @endsection

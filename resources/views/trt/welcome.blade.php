@@ -1,6 +1,6 @@
  @extends('layouts/regularSection', 
  [
- 'regular_section_css' => 'node row welcome',
+ 'css' => 'node row welcome',
  'header' => 'welcome_header',
  'content' => '',
  'footer' => 'welcome_footer'
