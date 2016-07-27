@@ -14,6 +14,9 @@
  .node{
  	text-align: center;
  	display: block;
+ 	width: 100%;
+ 	margin-right: 0 !important;
+ 	margin-left: 0 !important;
  }
 
  .title {
@@ -21,9 +24,12 @@
  }
 
  .header{
- 	background-color: blue;
+ 	background-color: #d7d7d7;
  }
-
+ header.row img:first-child {
+ 	margin: 0px auto;
+	display: block;
+ }
  .footer{
  	background-color: yellow;
  }
@@ -33,16 +39,112 @@
  	vertical-align: middle;
  	background-size:100%;
  	background-color: orange;
- }
+ 	width: 100%;
+ 	padding: 0;
+ 	margin: 0 !important;
 
+ }
+ .container-fluid {
+	width: 100vw;
+	overflow: hidden;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+
+ }
  .welcome{
  	background: url("../images/chepe1.png") no-repeat 0 0;
  	background-size: 100% 100%;
+ 	position: relative;
  }
+ .welcome footer h1 {
+ 	font-size: 100px;
+ 	color: #fff;
+ }
+ .welcome footer img {
+ 	width: 100px;
+ }
+ .welcome footer h1 + img {
+ 	padding: 12px 0 0;
+ }
+ .welcome footer h2 {
+ 	font-size: 15px;
+ 	color: #fff;
+ 	margin: 5px 0 20px;
 
+ }
+ .welcome footer {
+ 	position: absolute;
+ 	bottom: 18%;
+ }
+ /*	About section styles	*/
  .about{
  	background-color: orange;
  }
+ .about .grid-list {
+	margin: 0px auto;
+	float: none;
+	list-style: outside none none;	
+ }
+
+ .about .grid-list .item {
+ 	float: left;
+ 	background: #d7d7d7;
+ 	border: 1px solid black;
+ 	min-height: 300px;
+ }
+ .about .grid-list .item img {
+ 	width: 100%;
+ 	height: 100%;
+ 	object-fit: contain;
+ }
+ .about .grid-list .item.corner-left.top {
+ 	padding: 3em 0 0 3em;
+ }
+ .about .grid-list .item.corner-right.top {
+ 	padding: 3em 3em 0 0;
+ }
+ .about .grid-list .item.corner-left.bottom {
+ 	padding: 0 0 3em 3em;
+ }
+ .about .grid-list .item.corner-right.bottom {
+ 	padding: 0 3em 3em 0;
+ }
+ /* Responsive Grid System Styles  */
+ .row {
+ 	margin-right: 0 !important;
+ 	margin-left: 0 !important;
+ 	width: 100vw;
+ }
+/*	columns	*/
+footer .col {
+	min-height: 5em;
+	float: left;
+}
+.col-12 {
+	width: 100% !important;
+}
+.col-10 {
+	width: 83.3333333333% !important;
+}
+.col-8 {
+	`width: 66.6666666667% !important;
+}
+.col-6 {
+	width: 50% !important;
+}
+.col-4 {
+	width: 25% !important;
+}
+.col-3 {
+	width: 33.3333333333% !important;
+}
+.col-2 {
+	width: 16.6666666667% !important;
+}
+.col-1 {
+	width: 8.3333333333% !important;
+}
+
 
  /* Custom, iPhone Retina */ 
  @media only screen and (min-width : 320px) {
@@ -54,7 +156,7 @@
  /* Extra Small Devices, Phones */ 
  @media only screen and (min-width : 480px) {
  	.node{
- 		height: 854px;
+ 		height: 640px;
  	}
  }
 
@@ -68,13 +170,13 @@
  /* Medium Devices, Desktops */
  @media only screen and (min-width : 992px) {
  	.node{
- 		height: 1800px;
+ 		height: 800px;
  	}
  }
 
  /* Large Devices, Wide Screens */
  @media only screen and (min-width : 1200px) {
  	.node{
- 		height: 1920px;
+ 		height: 1105px;
  	}
  }
