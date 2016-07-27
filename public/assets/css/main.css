@@ -87,7 +87,7 @@
  }
 
  .about .grid-list .item {
- 	float: left;
+ 	float: left; 
  	background: #d7d7d7;
  	border: 1px solid black;
  	min-height: 300px;
