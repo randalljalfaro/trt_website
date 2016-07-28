@@ -84,6 +84,7 @@
 	margin: 0px auto;
 	float: none;
 	list-style: outside none none;	
+	padding: 0;
  }
 
  .about .grid-list .item {

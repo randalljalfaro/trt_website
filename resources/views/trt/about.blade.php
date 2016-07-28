@@ -46,17 +46,17 @@
  @endsection
  @section('about_footer')
  	
-	<div class="col col-3"></div>
+	<div class="col col-4"></div>
 	<div class="col col-6">
 		<p> We re-Design businesses and create digital experience to</p>
 		<p> delight your customers through eCommerce innovation. </p>
 	</div>
-	<div class="col col-3"></div>
+	<div class="col col-4"></div>
 
-	<div class="col col-3"></div>
+	<div class="col col-4"></div>
 	<div class="col col-6">
 		<p><strong> We have sold: 4,000,000 USD online and counting </strong></p>
 	</div>
-	<div class="col col-3"></div>
+	<div class="col col-4"></div>
 	 
  @endsection
