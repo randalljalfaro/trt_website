@@ -14,32 +14,32 @@
  	<h1>We are not classic, we are TRT interactive</h1>
  @endsection
  @section('about_content')
- 	<ul class="grid-list col-10">
- 		<li class="first item top corner-left col-3"> 	
+ 	<ul class="grid-list col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+ 		<li class="first item top corner-left col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"> 	
  			<image src="../assets/images/logo-trt.png"/>
 		</li>
- 		<li class="item col-3">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
- 		<li class="item col-3 top corner-right">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 top corner-right">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
- 		<li class="item col-3">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
- 		<li class="item col-3">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
- 		<li class="item col-3">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>		
- 		<li class="item bottom corner-left col-3">
+ 		<li class="item bottom corner-left col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
- 		<li class="item col-3">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
- 		<li class="item bottom corner-right col-3">
+ 		<li class="item bottom corner-right col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
  	</ul>
