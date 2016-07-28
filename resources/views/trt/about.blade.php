@@ -18,7 +18,7 @@
  		<li class="first item top corner-left col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"> 	
  			<image src="../assets/images/logo-trt.png"/>
 		</li>
- 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4-4">
+ 		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
  			<image src="../assets/images/logo-trt.png"/>
  		</li>
  		<li class="item col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 top corner-right">
@@ -46,17 +46,17 @@
  @endsection
  @section('about_footer')
  	
-	<div class="col col-4"></div>
-	<div class="col col-6">
+	<div class="col col-col-3-4 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+	<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 		<p> We re-Design businesses and create digital experience to</p>
 		<p> delight your customers through eCommerce innovation. </p>
 	</div>
-	<div class="col col-4"></div>
+	<div class="col col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
 
-	<div class="col col-4"></div>
-	<div class="col col-6">
-		<p><strong> We have sold: 4,000,000 USD online and counting </strong></p>
+	<div class="col col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+	<div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+		<p><strong> We have sold: 3,000,000 USD online and counting </strong></p>
 	</div>
-	<div class="col col-4"></div>
+	<div class="col col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
 	 
  @endsection

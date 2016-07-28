@@ -110,6 +110,22 @@
  .about .grid-list .item.corner-right.bottom {
  	padding: 0 3em 3em 0;
  }
+
+ .about footer {
+ 	margin-top: 2em;
+ }
+ .about footer .col {
+ 	min-height: 5em;
+	float: left;
+ 	line-height: 24px;
+ }
+ .about footer .col p {
+ 	margin-right: 0;
+ }
+ .about footer .col strong {
+ 	text-transform: uppercase;
+ 	font-size: 24px;
+ }
  /* Responsive Grid System Styles  */
  .row {
  	margin-right: 0 !important;
@@ -118,8 +134,7 @@
  }
 /*	columns	*/
 footer .col {
-	min-height: 5em;
-	float: left;
+	
 }
 .col-12 {
 	width: 100% !important;
